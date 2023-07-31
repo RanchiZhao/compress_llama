@@ -1,0 +1,18 @@
+[
+    {
+        "dataset_name": "lm_eng",
+        "task_name": "lm",
+        "weight": 1.0,
+        "path": "data",
+        "incontext_weight": [1.0],
+        "transforms": "/root/zhaoyq/compress_llama/datasets/lm_eng/script.py"
+    },
+    {
+        "dataset_name": "pile_v3",
+        "task_name": "lm",
+        "weight": 1.0,
+        "path": "data",
+        "incontext_weight": [1.0],
+        "transforms": "/root/zhaoyq/compress_llama/datasets/pile_v3/script.py"
+    }
+]
